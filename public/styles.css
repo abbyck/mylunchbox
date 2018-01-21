@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.LandingBG{
+    height: 85vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(66, 55, 55, 0.68),rgba(0, 0, 0, 0.68)),url("./landing.jpg");
+    /* background-image: url("./landing.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-tb {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2ecc71;
+}
+
+.hero-tb h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.hbtn {
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+    border: 2px solid #2ecc71;
+    color: #fff !important;
+}
+
+.hbtn-main {
+    background-color: #2ecc71;
+    transition:background-color 0.5s;
+}
+
+.hbtn-main:hover {
+    background-color: rgba(255,255,255, 0)
+}
+
+.hbtn-ghost{
+    transition:background-color 0.5s;
+}
+
+.hbtn-ghost:hover {
+    background-color: #2ecc71;
+}
+
+
+/* Section 1 */
+
+
+.Section1 {
+    height: 85vh;
+    width: 100%;
+    background-image: url("./suttle.jpg");
+    /* background-image: url("./landing.jpg"); */
+    background-attachment: fixed;
+}
+
+.sectiondiv {
+    padding: 40px 10px;
+}
+
+.innercard {
+    width: 90%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px;
+}
+
+/* Green color class */
+
+.green {
+    color: #2ecc71;
+}
+
+.centre {
+    text-align: center;
+}
+
+.innercard h1 {
+    text-decoration: underline;
+}
+
+
+
+/* Footer */
+
+.hfooter {
+    width: 100%;
+    height: 50px;
+    background-color: #3498db;
+}
+
+.hfooter h5 {
+    color: #fff;
+    padding-top: 10px;
+}
+
+/* App Promo */
+
+.apppromo img{
+    height: 70vh;
+}
+
+.getition img {
+    height: 40px;
+}
+
+.playstore {
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 30px; 
+}
+
+.appstore {
+    border-radius: 30px;
+}
+
+.hmap {
+    width: 95%;
+    height: 80%;
+}
